@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@3.5.3
+3 info using node@v0.12.4
+4 verbose node symlink /usr/local/bin/node
+5 verbose run-script [ 'prestart', 'start', 'poststart' ]
+6 info lifecycle server@1.0.0~prestart: server@1.0.0
+7 silly lifecycle server@1.0.0~prestart: no script for prestart, continuing
+8 info lifecycle server@1.0.0~start: server@1.0.0
+9 verbose lifecycle server@1.0.0~start: unsafe-perm in lifecycle true
+10 verbose lifecycle server@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/lucas.geiken/Documents/BlackAsh/server/node_modules/.bin:/Users/lucas.geiken/Documents/cluster-management/clusters/local/../../bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local:/usr/local/sbin
+11 verbose lifecycle server@1.0.0~start: CWD: /Users/lucas.geiken/Documents/BlackAsh/server
+12 silly lifecycle server@1.0.0~start: Args: [ '-c', 'node index.js' ]
+13 silly lifecycle server@1.0.0~start: Returned: code: 1  signal: null
+14 info lifecycle server@1.0.0~start: Failed to exec start script
+15 verbose stack Error: server@1.0.0 start: `node index.js`
+15 verbose stack Exit status 1
+15 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:232:16)
+15 verbose stack     at EventEmitter.emit (events.js:110:17)
+15 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+15 verbose stack     at ChildProcess.emit (events.js:110:17)
+15 verbose stack     at maybeClose (child_process.js:1015:16)
+15 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+16 verbose pkgid server@1.0.0
+17 verbose cwd /Users/lucas.geiken/Documents/BlackAsh/server
+18 error Darwin 14.3.0
+19 error argv "node" "/usr/local/bin/npm" "start"
+20 error node v0.12.4
+21 error npm  v3.5.3
+22 error code ELIFECYCLE
+23 error server@1.0.0 start: `node index.js`
+23 error Exit status 1
+24 error Failed at the server@1.0.0 start script 'node index.js'.
+24 error Make sure you have the latest version of node.js and npm installed.
+24 error If you do, this is most likely a problem with the server package,
+24 error not with npm itself.
+24 error Tell the author that this fails on your system:
+24 error     node index.js
+24 error You can get information on how to open an issue for this project with:
+24 error     npm bugs server
+24 error Or if that isn't available, you can get their info via:
+24 error     npm owner ls server
+24 error There is likely additional logging output above.
+25 verbose exit [ 1, true ]
